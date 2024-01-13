@@ -1,0 +1,26 @@
+.slider{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 36px;
+  gap: 13px;
+
+  &_btn-back,
+  &_btn-next{
+    width: 14px;
+    height: 16px;
+  }
+
+  &_btn-back{
+    background-image: url("../img/back-arrow.svg");
+    &:hover{
+      background-image: url("../img/left-hover.svg");
+    }
+  }
+  &_btn-next{
+    background-image: url("../img/next-arrow.svg");
+    &:hover{
+      background-image: url("../img/right-hover.svg");
+    }
+  }
+}
